@@ -1,0 +1,259 @@
+/*Nav*/
+
+.logo {
+  color: #373a3c !important;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-toggler-icon {
+  color: #373a3c !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #888888 !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(55,58,60, 1) !important;
+    border-color: rgba(55,58,60, 1) !important;
+}
+.dropdown-menu {
+  left: -9rem !important;
+}
+
+/*Location*/
+
+.location {
+  list-style-type: none;
+  font-size: 1em;
+  margin-bottom: 0.3rem;
+}
+.location li:nth-child(2), .location li:nth-child(3) {
+  color: #ff7302;
+  font-size: .68em;
+}
+
+/*Carousel*/
+
+#carousel-custom {
+  margin-top:  77px;
+}
+#carousel-custom .carousel-indicators {
+  background-color: #000;
+  margin: 0;
+  overflow: auto;
+  position: static;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  width: auto;
+  overflow: hidden;
+}
+#carousel-custom .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+  padding: 10px 5px;
+}
+#carousel-custom .carousel-indicators li.active img {
+  opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+.form {
+  top: 77px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+.form h3 {
+  margin: 10px 0 0 0;
+}
+.form h5 span {
+  color: #ff7302;
+}
+.form .form-group {
+  margin-bottom: 0 !important;
+}
+.form .form-control::placeholder {
+  color: #aeaeae !important;
+}
+.form .form-control {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border : solid rgba(255,255,255,0.5) !important;
+  border-width: 0 0 1px 0 !important;
+}
+.form-check-input {
+  margin-top: .6rem !important;
+}
+.form .form-check-label {
+  margin: 5px 0 10px 0 !important;
+  font-size: .6em !important;
+  line-height: 1em !important;
+}
+.form button {
+  margin: 0 0 15px 0 !important;
+}
+
+/*Cards*/
+
+#nav-tab a {
+  color: #555555 !important;
+}
+#nav-tab a:hover {
+  color: #888888 !important;
+}
+.nav-tabs .nav-link {
+  border: 2px solid transparent !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-top-color: rgb(255, 255, 255) !important;
+  border-right-color: rgb(255, 255, 255) !important;
+  border-bottom-color: rgb(255, 115, 2) !important;
+  border-left-color: rgb(255, 255, 255) !important;
+  color: #373a3c !important;
+}
+.card {
+  border-radius: 0 !important;
+  border: 0 !important;
+  box-shadow: 0 2px 3px #5b6167;
+}
+.card-img-top {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.img-wrap {
+  position: relative;
+}
+.transp-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.6);
+  padding: .65rem 1.25rem;
+}
+.card-body {
+  padding: 1rem 0 !important;
+}
+.card-text {
+  margin: 0 1.25rem 1rem !important;
+  color: #888888 !important;
+}
+.separator {
+  background-color: #dee2e6;
+  height: 1px;
+  margin: 0 0 .75rem 0;
+}
+.btn {
+  border-radius: .2rem !important;
+  margin: 0 1.25rem;
+}
+.btn-primary {
+  background-color: #ff7302 !important;
+  border-color: #ff7302 !important;
+  box-shadow: 0 1px 3px #5b6167;
+}
+.icon-background {
+  position: absolute;
+  right: 1.25rem;
+  padding: 8px 11px;
+  background-color: #ff7302;
+  border-radius:50%;
+  box-shadow: 0 1px 2px #5b6167;
+}
+.card-price {
+  position: absolute;
+  right: 1.25rem;
+  bottom: .3rem;
+  color: #ff7302;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+/* Section colours */
+
+.paleorange-bg {
+  background-color: #fff3ea;
+}
+.orange-bg {
+  background-color:#ff7302;
+}
+.white-bg {
+  background-color: #fff !important;
+}
+
+/* Content */
+
+.section-title {
+  margin: 40px 0 10px 0;
+  color: #373a3c;
+  font-weight: 500;
+}
+.section-subtitle {
+  margin: 10px 0;
+  color: #373a3c;
+  font-weight: 500;
+}
+.orange-check {
+  color:#ff7302;
+  margin: 0 20px;
+}
+
+/* Google Maps */
+
+#location .row > :first-child {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+#googleMap1 {
+  width:100%;
+  height: 100%;
+   min-height: 600px;
+}
+#googleMap2 {
+  width:100%;
+  height:200px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .form {
+	position: absolute !important;
+	right: 5rem;
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .form {
+	position: absolute !important;
+	right: 10rem;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .form {
+	position: absolute !important;
+    top: 6rem;
+	right: 10rem;
+  } 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .form {
+    position: absolute !important;
+    top: 7rem;
+    right: 10rem;
+  } 
+}
